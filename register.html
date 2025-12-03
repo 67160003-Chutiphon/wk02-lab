@@ -12,37 +12,37 @@
 
             <!-- ชื่อจริง -->
             <label for="fname">ชื่อจริง:</label>
-            <input type="text" id="fname" name="firstname" required />
+            <input type="text" id="fname" name="firstname" style="width: 300px; padding: 8px; font-size: 16px;" required />
 
             <!-- นามสกุล -->
             <label for="lname">นามสกุล:</label>
-            <input type="text" id="lname" name="lastname" required />
+            <input type="text" id="lname" name="lastname" style="width: 300px; padding: 8px; font-size: 16px;" required />
             <br><br>
 
             <!-- อีเมล -->
             <label for="email">อีเมล:</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="email" style="width: 300px; padding: 8px; font-size: 16px;" required />
 
             <!-- วันเกิด -->
             <label for="birthdate">วันเกิด:</label>
-            <input type="date" id="birthdate" name="birthdate" />
+            <input type="date" id="birthdate" name="birthdate" style="width: 200px; padding: 8px; font-size: 16px;" />
             <br><br>
 
             <!-- เพศ -->
             <label>เพศ:</label>
-            <input type="radio" id="male" name="gender" value="male" />
+            <input type="radio" id="male" name="gender" value="male" style="width: 20px; height: 20px;" />
             <label for="male">ชาย</label>
 
-            <input type="radio" id="female" name="gender" value="female" />
+            <input type="radio" id="female" name="gender" value="female" style="width: 20px; height: 20px;" />
             <label for="female">หญิง</label>
 
-            <input type="radio" id="other" name="gender" value="other" />
+            <input type="radio" id="other" name="gender" value="other" style="width: 20px; height: 20px;" />
             <label for="other">อื่นๆ</label>
             <br><br>
 
             <!-- ประเทศ -->
             <label for="country">ประเทศ:</label>
-            <select id="country" name="country">
+            <select id="country" name="country" style="width: 320px; padding: 8px; font-size: 16px;">
                 <option value="">-- เลือกประเทศ --</option>
                 <option value="th">ไทย</option>
                 <option value="us">สหรัฐอเมริกา</option>
@@ -54,18 +54,18 @@
 
             <!-- ข้อมูลเพิ่มเติม -->
             <label for="message">ข้อมูลเพิ่มเติม:</label><br>
-            <textarea id="message" name="message" rows="5" cols="50"></textarea>
+            <textarea id="message" name="message" style="width: 500px; height: 150px; padding: 10px; font-size: 16px;"></textarea>
             <br><br>
 
             <!-- ยอมรับเงื่อนไข -->
-            <input type="checkbox" id="agree" name="agree" required />
-            <label for="agree">ฉันยอมรับเงื่อนไขการใช้งาน</label>
+            <input type="checkbox" id="agree" name="agree" style="width: 20px; height: 20px;" required />
+            <label for="agree" style="font-size: 16px;">ฉันยอมรับเงื่อนไขการใช้งาน</label>
         </fieldset>
 
         <br>
         <!-- ปุ่ม -->
-        <button type="submit">ส่งข้อมูล</button>
-        <button type="reset">ยกเลิก</button>
+        <button type="submit" style="padding: 12px 30px; font-size: 16px;">ส่งข้อมูล</button>
+        <button type="reset" style="padding: 12px 30px; font-size: 16px;">ยกเลิก</button>
     </form>
 </body>
 </html>
